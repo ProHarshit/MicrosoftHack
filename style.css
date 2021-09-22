@@ -15,7 +15,7 @@ body{
         }
         .maindiv {
           position: absolute;
-          top: 35%;
+          top: 80%;
           left: 35%;
           transform: translate(-50%, -50%);
           width: 350px;
@@ -149,7 +149,7 @@ body{
  }
  .div2{
 	margin-left: 0.5px;
-	margin-top: 15px;
+	margin-top: 5px;
 	width: 90%;
  }
  .div1{
@@ -164,10 +164,40 @@ body{
  .maindiv{
    left: 40%;
    min-width: 200px;
-   top: 40%;
+   top: 70%;
+   transform: translate(-50%, -50%);
  }
  hr{
    width: 300px;
    margin-right: 200px;
  }
+  @media screen and (max-width:600px){
+ .div3{
+	margin-left: 50px;
+	margin-top: 90px;
+ }
+ .div2{
+	margin-left: 0.5px;
+	margin-top: 5px;
+ }
+ .div1{
+	margin-left: 0.5px;
+ }
+ body{
+	background: #ffffff;
+ }
+ .submit{
+   margin-left: 200px;
+ }
+ .maindiv{
+   left: 40%;
+   min-width: 200px;
+   top: 40%;
+   transform: translate(-50%, -50%);
+ }
+ hr{
+   width: 300px;
+   margin-right: 200px;
+ }
+}
 }
