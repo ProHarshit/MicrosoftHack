@@ -1,0 +1,173 @@
+body{
+            background-image: url('images/microsoftbg.png' );
+            background-repeat: no-repeat;
+            background-size: 1000%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .div1{
+            margin-left: 375px;
+            margin-top: 80px;
+            width: 460px;
+            background-color: #ffffff;
+            padding-left: 50px;
+            padding-top: 30px;
+            padding-bottom: 60px;
+        }
+        .maindiv {
+          position: absolute;
+          top: 50%;
+          left: 35%;
+          transform: translate(-50%, -50%);
+          width: 350px;
+          min-height: 300px;
+          padding: 3rem;
+          border-radius: 0.5rem;
+        }
+        .img1{
+            width: 120px;
+        }
+        .p1{
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .textbox{
+            border: 1px solid #ffffff;
+            font-size: 18px;
+        }
+        hr{
+            width: 400px;
+            margin-right: 100px;
+            margin-bottom: 17px;
+        }
+        .label1{
+            color: #1b1b1b;
+            font-size: 17px;
+        }
+        .a1{
+            color: #108df3;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .a1:hover{
+            text-decoration: underline;
+            color: #666666;
+
+        }
+        .a2{
+            font-size: 17px;
+            text-decoration: none;
+            color: #108df3;
+            float: left;
+            margin-right: 0px;
+        }
+        .a2:hover{
+            text-decoration: underline;
+            color: #666666;
+        }
+        .a3{
+            float: left;
+            margin-left: -10px;
+        }
+        .mg2{
+            width: 43px;
+            
+        }
+        .submit{
+            width: 120px;
+            background-color: #005da6;
+            color: white;
+            font-size: 18px;
+            padding: 7px;
+            border: 1px solid #005da6;
+            margin-left: 290px;
+            margin-top: 15px;
+            opacity: 0.9;
+        }
+        .submit:hover{
+            cursor: pointer;
+            opacity: 1;
+        }
+        .div2{
+            margin-left: 375px;
+            height: 60px;
+            margin-top: 22px;
+        }
+        .img3{
+            width: 55px;
+            float: left;
+            margin-left: 50px;
+        }
+        .label2{
+            font-size: 19px;
+            float: left;
+            margin-top: 19px;
+        }
+        .button1{
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+            width: 510px;
+        }
+        .button1:hover{
+            cursor: pointer;
+            background-color: #e5e5e5;
+            border: 1px solid #e5e5e5;
+        }
+        .div3{
+            margin-top: 70px;
+            margin-left: 955px;
+            display: flex;            
+        }
+        .a4{
+            color: black;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+        .a4:hover{
+            text-decoration: underline;
+        }
+        .a5{
+            color: black;
+            margin-right: 15px;            
+            text-decoration: none;
+        }
+        .a5:hover{
+            text-decoration: underline;
+        }
+        .a6{
+            color: black;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+        .a6:hover{
+            text-decoration: underline;
+        }
+ @media screen and (max-width:800px){
+ .div3{
+	margin-left: 55px;
+	margin-top: 90px;
+ }
+ .div2{
+	margin-left: 0.5px;
+	margin-top: 15px;
+	width: 90%;
+ }
+ .div1{
+	margin-left: 0.5px;
+ }
+ body{
+	background: #ffffff;
+ }
+ .submit{
+   margin-left: 200px;
+ }
+ .maindiv{
+   left: 40%;
+   min-width: 200px;
+   top: 40%;
+ }
+ hr{
+   width: 300px;
+   margin-right: 200px;
+ }
+}
