@@ -142,7 +142,7 @@ body{
         .a6:hover{
             text-decoration: underline;
         }
- @media screen and (max-width:800px){
+ @media screen and (max-width:500px){
  .div3{
 	margin-left: 55px;
 	margin-top: 90px;
