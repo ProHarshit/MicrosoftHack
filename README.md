@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
 </p>
 
-<p align="center">A beginners friendly, Automated phishing tool with 30+ templates.</p>
+<p align="center">A beginners friendly, Automated phishing tool for Facebook.</p>
 
 ##
 
